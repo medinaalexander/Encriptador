@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 50px);
+    margin: 2rem 2rem 2rem 5rem;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.section__left {
+    width: calc(80% - 7rem);
+    margin-right: 1.5rem;
+}
+
+.section__left-input {
+    resize: none;
+    width: 60vw;
+    height: 80%;
+    border: none;
+    font-size: 2rem;
+    padding: 2rem 0 0 2rem;
+    color: #0A3871;
+}
+
+.section__left-input:focus {
+    outline: none;
+}
+
+.section__left-input::placeholder {
+    color: #0A3871;
+}
+
+.section__left-descripcion {
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+    margin-bottom: .5rem;
+}
+
+.descripcion__parrafo-secundario {
+    background: #E5E5E5;
+    margin-left: .2rem;
+   
+}
+.boton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.boton__encriptar {
+    margin-right:.5rem;
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+.boton__desencriptar{
+    color: #0A3871;
+    background: none;
+}
+
+.boton__encriptar, .boton__desencriptar {
+    width: 20rem;
+    padding: 1.5rem;
+    border: 1px solid #0A3871;
+    border-radius: 1.5rem;
+}
+
+.section__right {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    width: 30%;
+    margin-right: 2rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    ;
+}
+
+.section__right-output {
+    background: url("../imagenes/Muñeco.png") no-repeat center;  
+    border: none;  
+    font-size: 1rem;
+    resize: none;
+    height: 100%;
+    padding: 2rem;
+}
+
+.section__right-output:focus {
+    outline: none;
+}
+
+.descripcion {
+    margin-top: .5rem;
+    padding: 0 2.5em;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.descripcion__titulo, .descripcion__parrafo {
+    background: #FFFFFF;
+}
+
+.descripcion__titulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.descripcion__parrafo {
+    font-size: 1rem;
+}
+
+.boton__copiar {
+    color: #0A3871;
+    width: 20rem;
+    padding: 1.5rem;
+    border: 1px solid #0A3871;
+    border-radius: 1.5rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    background: none;
+}

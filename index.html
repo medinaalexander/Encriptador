@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador | Alura</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo"></div>
+   </header>
+
+    <main class="main">
+        <section class="section__left">
+            <textarea class="section__left-input" cols="30" rows="10" placeholder="Ingrese el texto aquí" autofocus></textarea>
+
+            <div class="section__left-descripcion">
+                <img src="./imagenes/Vector.png" alt="" class="decripcion__img">
+                <p class="descripcion__parrafo-secundario">
+                    Solo letras minúsculas y sin acentos.
+                </p>
+            </div>
+
+            <div class="boton">
+                <button class="boton__encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton__desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="section__right">
+            <textarea class="section__right-output" cols="30" rows="10"></textarea>
+            <!-- <div class="descripcion">
+                <h2 class="descripcion__titulo">Ningún mensaje fue encontrado</h2>
+                <p class="descripcion__parrafo">Ingresa un el texto que deseas encriptar o desencriptar</p> -->
+            </div>
+            <button class="boton__copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Hecho por <a href="https://github.com/medinaalexander/" target="_blank">Alexander Medina</a></p>
+        <p>&copy Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
